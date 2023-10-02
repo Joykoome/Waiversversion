@@ -9,7 +9,7 @@ import java.util.List;
 public interface WaivertypeService {
     List<Waivertype> getWaiverTypes();
     Waivertype getWaivertypeById(Long id);
-//    Waivertype insert(Waivertype waivertype);
+
     Waivertype insert(WaiverTypeRequest waiverTypeRequest);
     Waivertype updateWaivertype(Long id, Waivertype waivertype);
 
